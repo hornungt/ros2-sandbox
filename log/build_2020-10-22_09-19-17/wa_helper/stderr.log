@@ -1,3 +1,0 @@
-CMake Error: INSTALL(EXPORT) given unknown export "wa_helper"
-CMake Generate step failed.  Build files cannot be regenerated correctly.
-make: *** [Makefile:266: cmake_check_build_system] Error 1

@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000335] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000382] (-) JobUnselected: {'identifier': 'cpp_srcvcli'}
-[0.000419] (-) JobUnselected: {'identifier': 'my_package'}
-[0.000455] (-) JobUnselected: {'identifier': 'py_pubsub'}
-[0.000490] (-) JobUnselected: {'identifier': 'turtlesim'}
-[0.000526] (-) EventReactorShutdown: {}
