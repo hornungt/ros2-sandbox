@@ -1,6 +1,0 @@
-Invoking command in '/home/theo/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theo/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/theo/dev_ws/install/tutorial_interfaces
-Invoked command in '/home/theo/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theo/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/theo/dev_ws/install/tutorial_interfaces
-Invoking command in '/home/theo/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/tutorial_interfaces -- -j1 -l1
-Invoked command in '/home/theo/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/tutorial_interfaces -- -j1 -l1
-Invoking command in '/home/theo/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/tutorial_interfaces
-Invoked command in '/home/theo/dev_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/tutorial_interfaces

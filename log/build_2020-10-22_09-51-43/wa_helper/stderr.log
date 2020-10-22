@@ -1,6 +1,0 @@
-[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:8:1:[m[K [01;31m[Kerror: [m[K‘[01m[KWAPublisher[m[K’ does not name a type
-    8 | [01;31m[KWAPublisher[m[K<T>::WAPublisher(T (*fn)(), int delay_ms, std::string topic_name, int queue_size) : Node("minimal_publisher")
-      | [01;31m[K^~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

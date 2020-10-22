@@ -1,3 +1,0 @@
-[ 50%] Built target client
-[35m[1mScanning dependencies of target server[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m

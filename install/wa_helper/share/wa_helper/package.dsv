@@ -1,8 +1,0 @@
-source;share/wa_helper/hook/cmake_prefix_path.ps1
-source;share/wa_helper/hook/cmake_prefix_path.dsv
-source;share/wa_helper/hook/cmake_prefix_path.sh
-source;share/wa_helper/local_setup.bash
-source;share/wa_helper/local_setup.dsv
-source;share/wa_helper/local_setup.ps1
-source;share/wa_helper/local_setup.sh
-source;share/wa_helper/local_setup.zsh
