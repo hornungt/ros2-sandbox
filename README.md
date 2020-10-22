@@ -22,6 +22,9 @@ then in another terminal, source the installed files from in dev_ws
 run ros nodes with
 `ros2 run <package_name> <nodes ...>`
 
+listen to ros topics and their data with
+`ros2 topic echo <topic_name>`
+
 **Todos:
 - add more ros2 cli instructions (create package, listen to topic, etc)
 - explain cpp_pubsub, wa_pubsub, and wa_helper packages
