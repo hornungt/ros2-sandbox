@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target wa_pub_test[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
-[100%] [32m[1mLinking CXX executable wa_pub_test[0m
-/usr/bin/ld: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o: in function `void __gnu_cxx::new_allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >::construct<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >, tutorial_interfaces::msg::Num_<std::allocator<void> > (*)(), int, char const (&) [9], int>(WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >*, tutorial_interfaces::msg::Num_<std::allocator<void> > (*&&)(), int&&, char const (&) [9], int&&)':
-wa_pub_test.cpp:(.text._ZN9__gnu_cxx13new_allocatorI11WAPublisherIN19tutorial_interfaces3msg4Num_ISaIvEEEEE9constructIS7_JPFS6_vEiRA9_KciEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI11WAPublisherIN19tutorial_interfaces3msg4Num_ISaIvEEEEE9constructIS7_JPFS6_vEiRA9_KciEEEvPT_DpOT0_]+0xe3): undefined reference to `WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(tutorial_interfaces::msg::Num_<std::allocator<void> > (*)(), int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:137: wa_pub_test] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

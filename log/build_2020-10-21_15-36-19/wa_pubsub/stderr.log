@@ -1,7 +1,0 @@
-[01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kwa_helper/src/wa_publisher.hpp: No such file or directory
-    1 | #include [01;31m[K"wa_helper/src/wa_publisher.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:63: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
