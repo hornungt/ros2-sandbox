@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target wa_helper[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libwa_helper.a[0m
+[100%] Built target wa_helper
+-- Install configuration: ""
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.sh
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.dsv
+-- Installing: /home/theo/dev_ws/install/wa_helper/include
+-- Installing: /home/theo/dev_ws/install/wa_helper/include/wa_helper
+-- Installing: /home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp
+-- Installing: /home/theo/dev_ws/install/wa_helper/lib/libwa_helper.a
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/package_run_dependencies/wa_helper
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/parent_prefix_path/wa_helper
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.sh
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.sh
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.dsv
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.bash
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.sh
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.zsh
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.dsv
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.dsv
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/packages/wa_helper
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport-noconfig.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig.cmake
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig-version.cmake
+-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.xml

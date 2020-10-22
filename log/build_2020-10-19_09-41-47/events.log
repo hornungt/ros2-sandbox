@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000227] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000257] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000285] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.025200] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.037202] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.038259] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.099045] (-) TimerEvent: {}
+[0.199886] (-) TimerEvent: {}
+[0.204971] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.219442] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.255373] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.300002] (-) TimerEvent: {}
+[0.400373] (-) TimerEvent: {}
+[0.501066] (-) TimerEvent: {}
+[0.601330] (-) TimerEvent: {}
+[0.701998] (-) TimerEvent: {}
+[0.802522] (-) TimerEvent: {}
+[0.903057] (-) TimerEvent: {}
+[1.003537] (-) TimerEvent: {}
+[1.110964] (-) TimerEvent: {}
+[1.211476] (-) TimerEvent: {}
+[1.312011] (-) TimerEvent: {}
+[1.412538] (-) TimerEvent: {}
+[1.515097] (-) TimerEvent: {}
+[1.620334] (-) TimerEvent: {}
+[1.725549] (-) TimerEvent: {}
+[1.826386] (-) TimerEvent: {}
+[1.926914] (-) TimerEvent: {}
+[2.027941] (-) TimerEvent: {}
+[2.128476] (-) TimerEvent: {}
+[2.229479] (-) TimerEvent: {}
+[2.335881] (-) TimerEvent: {}
+[2.439943] (-) TimerEvent: {}
+[2.544765] (-) TimerEvent: {}
+[2.645276] (-) TimerEvent: {}
+[2.745861] (-) TimerEvent: {}
+[2.846291] (-) TimerEvent: {}
+[2.946819] (-) TimerEvent: {}
+[3.050350] (-) TimerEvent: {}
+[3.150804] (-) TimerEvent: {}
+[3.262625] (-) TimerEvent: {}
+[3.363398] (-) TimerEvent: {}
+[3.464112] (-) TimerEvent: {}
+[3.564634] (-) TimerEvent: {}
+[3.665163] (-) TimerEvent: {}
+[3.765690] (-) TimerEvent: {}
+[3.884826] (-) TimerEvent: {}
+[3.997104] (-) TimerEvent: {}
+[4.109947] (-) TimerEvent: {}
+[4.212717] (-) TimerEvent: {}
+[4.324572] (-) TimerEvent: {}
+[4.425485] (-) TimerEvent: {}
+[4.526032] (-) TimerEvent: {}
+[4.626551] (-) TimerEvent: {}
+[4.728542] (-) TimerEvent: {}
+[4.831516] (-) TimerEvent: {}
+[4.932536] (-) TimerEvent: {}
+[5.034532] (-) TimerEvent: {}
+[5.135524] (-) TimerEvent: {}
+[5.236536] (-) TimerEvent: {}
+[5.339014] (-) TimerEvent: {}
+[5.439539] (-) TimerEvent: {}
+[5.544904] (-) TimerEvent: {}
+[5.647398] (-) TimerEvent: {}
+[5.747915] (-) TimerEvent: {}
+[5.850416] (-) TimerEvent: {}
+[5.953649] (-) TimerEvent: {}
+[6.068780] (-) TimerEvent: {}
+[6.171509] (-) TimerEvent: {}
+[6.284298] (-) TimerEvent: {}
+[6.388716] (-) TimerEvent: {}
+[6.496554] (-) TimerEvent: {}
+[6.597049] (-) TimerEvent: {}
+[6.697598] (-) TimerEvent: {}
+[6.798613] (-) TimerEvent: {}
+[6.899197] (-) TimerEvent: {}
+[6.999978] (-) TimerEvent: {}
+[7.100188] (-) TimerEvent: {}
+[7.204154] (-) TimerEvent: {}
+[7.312469] (-) TimerEvent: {}
+[7.312987] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.416426] (-) TimerEvent: {}
+[7.520367] (-) TimerEvent: {}
+[7.620885] (-) TimerEvent: {}
+[7.717882] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[7.724403] (-) TimerEvent: {}
+[7.742997] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.797753] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.818549] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/cpp_pubsub'], 'cwd': '/home/theo/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[7.828595] (-) TimerEvent: {}
+[7.841418] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.844584] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.845821] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/theo/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[7.846587] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[7.847352] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.847932] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.848175] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.848447] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.848677] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.848904] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.852690] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.852933] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.853173] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.853402] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.853624] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.854387] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.856729] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.856865] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.856966] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.860490] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.929341] (-) TimerEvent: {}
+[7.973914] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[7.977250] (my_package) JobStarted: {'identifier': 'my_package'}
+[8.012875] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[8.014567] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[8.014886] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/my_package', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[8.029835] (-) TimerEvent: {}
+[8.132734] (-) TimerEvent: {}
+[8.188512] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[8.218082] (my_package) CommandEnded: {'returncode': 0}
+[8.233139] (-) TimerEvent: {}
+[8.274152] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[8.274325] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/my_package'], 'cwd': '/home/theo/dev_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[8.299768] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.301507] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/lib/my_package/my_node\n'}
+[8.301852] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[8.302527] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[8.302773] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[8.303008] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[8.303264] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[8.303490] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[8.303712] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[8.303961] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[8.304213] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[8.304433] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[8.308692] (my_package) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/my_package/share/my_package/package.dsv\n'}
+[8.309543] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[8.311154] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[8.311281] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[8.311382] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/my_package/share/my_package/package.xml\n'}
+[8.316844] (my_package) CommandEnded: {'returncode': 0}
+[8.333706] (-) TimerEvent: {}
+[8.401494] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[8.405334] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[8.431983] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[8.436543] (-) TimerEvent: {}
+[8.437197] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[8.437590] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/turtlesim', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[8.536875] (-) TimerEvent: {}
+[8.637298] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[8.637553] (-) TimerEvent: {}
+[8.715160] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[8.740355] (-) TimerEvent: {}
+[8.770235] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_generator_c\n'}
+[8.824883] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[8.840460] (-) TimerEvent: {}
+[8.880688] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[8.941406] (-) TimerEvent: {}
+[8.948273] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[9.035460] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[9.041588] (-) TimerEvent: {}
+[9.128368] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[9.142462] (-) TimerEvent: {}
+[9.166922] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[9.236707] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target mimic\n'}
+[9.243014] (-) TimerEvent: {}
+[9.316753] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[9.343068] (-) TimerEvent: {}
+[9.360676] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__py\n'}
+[9.428523] (turtlesim) StdoutLine: {'line': b'[ 85%] Built target turtlesim__python\n'}
+[9.443560] (-) TimerEvent: {}
+[9.488516] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[9.539533] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.544597] (-) TimerEvent: {}
+[9.609812] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtle_teleop_key\n'}
+[9.645241] (-) TimerEvent: {}
+[9.722424] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim_node\n'}
+[9.745345] (-) TimerEvent: {}
+[9.777261] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[9.805128] (turtlesim) CommandEnded: {'returncode': 0}
+[9.845707] (-) TimerEvent: {}
+[9.947799] (-) TimerEvent: {}
+[10.048219] (-) TimerEvent: {}
+[10.148116] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[10.152966] (-) TimerEvent: {}
+[10.153338] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/turtlesim'], 'cwd': '/home/theo/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2050'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1554'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2617'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34782'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2235,unix/theo-VirtualBox:/tmp/.ICE-unix/2235'), ('INVOCATION_ID', '3fd44cd1dc8941a2af5c55d5ded86ad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a95dbb3a-b9ec-4e82-84ed-047c712156ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/cpp_pubsub:/opt/ros/foxy')]), 'shell': False}
+[10.175743] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.176539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[10.177156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.177726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.178297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[10.178467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.179025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[10.179199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[10.179363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[10.182983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[10.183352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[10.183557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[10.183751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[10.183969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[10.184138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[10.184846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[10.185027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[10.185193] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[10.188280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[10.188491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[10.188661] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[10.188850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[10.189017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[10.189189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[10.189362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[10.189524] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[10.189707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[10.189874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[10.190036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[10.190196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[10.190352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.192681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.193433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[10.193545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[10.193716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[10.193814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[10.193907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[10.194000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.194155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[10.194320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[10.194597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.194702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.195208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[10.195313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[10.195408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[10.195501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[10.195614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[10.195706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[10.196316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[10.196428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[10.200607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[10.200753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[10.202522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[10.202644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.202787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.202890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.202985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203170] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.203557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.203654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.203746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.203860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.203957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.204049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[10.204140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.209923] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[10.210062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.210216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.210321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.210416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.210509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[10.210601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.210805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.210907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.211003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.211221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.211315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.211407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[10.217170] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.217373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.217477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.217573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.217666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.217759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[10.217851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.217944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.218056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.218149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.218240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.218332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[10.218423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[10.218514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[10.218605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[10.218697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[10.218788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[10.218885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[10.218996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[10.219088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.219180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[10.219271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.219367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.219458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[10.219550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.219641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.219733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.219846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[10.219961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[10.220054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[10.220146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[10.220237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.225385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[10.229218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[10.229351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.229450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.229622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[10.229742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.229836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[10.230046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[10.230141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[10.230233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[10.233155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[10.233264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[10.233360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[10.233537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[10.233655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[10.233749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[10.233956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[10.234074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[10.234166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[10.236225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[10.236335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[10.236432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[10.241053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[10.241164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[10.241260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[10.241353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.241469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.241563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[10.241654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[10.241746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[10.241837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[10.241928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.242019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[10.242110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.242201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[10.242292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[10.242400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[10.242494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[10.242585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[10.242676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[10.242767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[10.242858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim\n'}
+[10.242949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[10.243039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[10.243138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.243229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.243324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[10.243435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[10.243526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.243618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[10.243709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.243800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.243920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[10.244013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[10.244104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[10.244194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[10.244285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.256874] (-) TimerEvent: {}
+[10.257099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[10.257213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[10.257310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[10.257412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.257506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.257598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[10.257690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[10.257782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[10.257874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[10.257965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[10.258082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[10.258173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[10.338261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[10.338830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[10.338949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[10.339108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[10.339210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[10.339677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[10.339785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[10.339881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[10.340004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[10.340101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[10.340286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[10.344765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[10.344947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[10.345058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[10.345211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[10.345306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[10.345398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[10.345489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[10.345580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[10.345671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[10.345762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[10.345873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[10.347469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.349222] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.350477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.352354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[10.353208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[10.353784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[10.354031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[10.354560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[10.354821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[10.355049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[10.355275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[10.355506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[10.355753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[10.355977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[10.356629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[10.356869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[10.356969] (-) TimerEvent: {}
+[10.360994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[10.361270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[10.361530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[10.361760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[10.362012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[10.362239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[10.362506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[10.362733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[10.362958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[10.363185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[10.363428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[10.363659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[10.364429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[10.364674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[10.370626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[10.372105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[10.373605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[10.375210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[10.375324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[10.376107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[10.376220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[10.376383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[10.376481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[10.376574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[10.376665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[10.376757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[10.377218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[10.377782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[10.378410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[10.378655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[10.378893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[10.379142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[10.379371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[10.379594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[10.379818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[10.380058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[10.380547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[10.387597] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[10.388594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[10.391145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[10.391270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.392076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.392190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.393004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[10.393119] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.393700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[10.394718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.394966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.395934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[10.396180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.396451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[10.396706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.396937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.397164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.397390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.397635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.400561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.400884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[10.401064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[10.401295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[10.409316] (turtlesim) CommandEnded: {'returncode': 0}
+[10.457161] (-) TimerEvent: {}
+[10.563562] (-) TimerEvent: {}
+[10.668032] (-) TimerEvent: {}
+[10.769446] (-) TimerEvent: {}
+[10.816912] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[10.821571] (-) EventReactorShutdown: {}

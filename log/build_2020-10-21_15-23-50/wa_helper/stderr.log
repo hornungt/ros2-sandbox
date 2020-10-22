@@ -1,0 +1,13 @@
+[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:8:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KWAPublisher<T>::WAPublisher(std::function<T>&, int, int, int)[m[K’
+    8 | [01;31m[KWAPublisher<T>[m[K::WAPublisher(std::function<T> &fn, int delay_ms, int topic_name, int queue_size) : Node("minimal_publisher")
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.hpp:24:3:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KWAPublisher<T>::WAPublisher(std::function<void()>&, int, int, int)[m[K’
+   24 |   [01;36m[KWAPublisher[m[K(std::function<void()> &fn, int delay_ms, int topic_name, int queue_size);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass WAPublisher<T>[m[K’ defined here
+   15 | class [01;36m[KWAPublisher[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wa_publisher.dir/build.make:63: CMakeFiles/wa_publisher.dir/src/wa_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

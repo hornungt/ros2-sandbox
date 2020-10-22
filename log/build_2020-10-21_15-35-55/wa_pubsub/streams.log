@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/theo/dev_ws/build/wa_pubsub': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
+[0.110s] [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kwa_helper/src/wa_publisher.hpp: No such file or directory
+[0.110s]     1 | #include [01;31m[K"wa_helper/src/wa_publisher.hpp"[m[K
+[0.110s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.110s] compilation terminated.
+[0.111s] make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:63: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o] Error 1
+[0.115s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2
+[0.115s] make: *** [Makefile:141: all] Error 2
+[0.120s] Invoked command in '/home/theo/dev_ws/build/wa_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1

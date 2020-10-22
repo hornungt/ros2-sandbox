@@ -1,0 +1,55 @@
+[0.021s] Invoking command in '/home/theo/dev_ws/build/wa_pubsub': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/wa_helper/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1
+[0.085s] [35m[1mScanning dependencies of target wa_pub_test[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
+[1.738s] [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.739s] [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:20:132:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(void (*)(), int, const char [9], int)[m[K’
+[1.739s]    20 | isher = WAPublisher<tutorial_interfaces::msg::Num>(&callback, 1000, "wa_topic", 10[01;31m[K)[m[K;
+[1.739s]       |                                                                                   [01;31m[K^[m[K
+[1.739s] 
+[1.739s] In file included from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[1.739s] [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KWAPublisher<T>::WAPublisher(std::function<T()>&, int, int, int) [with T = tutorial_interfaces::msg::Num_<std::allocator<void> >][m[K’
+[1.740s]    24 |   [01;36m[KWAPublisher[m[K(std::function<T()> &fn, int delay_ms, int topic_name, int queue_size);
+[1.740s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.740s] [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid (*)()[m[K’ to ‘[01m[Kstd::function<tutorial_interfaces::msg::Num_<std::allocator<void> >()>&[m[K’
+[1.740s]    24 |   WAPublisher([01;36m[Kstd::function<T()> &fn[m[K, int delay_ms, int topic_name, int queue_size);
+[1.740s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.101s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[2.101s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[2.101s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[2.101s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.101s]                  from [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:4[m[K,
+[2.102s]                  from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[2.102s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >][m[K’:
+[2.102s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:482:2:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >][m[K’
+[2.102s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Alloc = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.102s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Alloc = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.102s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.102s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}; _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >][m[K’
+[2.103s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Alloc = std::allocator<WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}][m[K’
+[2.103s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >; _Args = {WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&}][m[K’
+[2.103s] [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:22:86:[m[K   required from here
+[2.103s] [01m[K/usr/include/c++/9/ext/new_allocator.h:145:20:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KWAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(const WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&)[m[K’
+[2.103s]   145 |  noexcept(noexcept([01;31m[K::new((void *)__p)[m[K
+[2.103s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.103s]   146 | [01;31m[K       _Up(std::forward<_Args>(__args)...)[m[K))
+[2.104s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.104s] In file included from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[2.104s] [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[KWAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(const WAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[2.104s]    15 | class [01;36m[KWAPublisher[m[K : public rclcpp::Node
+[2.104s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[2.104s] [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:15:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&)[m[K’
+[2.105s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:33[m[K,
+[2.105s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[2.105s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[2.107s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.107s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.107s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.107s]                  from [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:4[m[K,
+[2.107s]                  from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[2.107s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1195:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.108s]  1195 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Node)
+[2.108s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.177s] make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:63: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o] Error 1
+[2.180s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2
+[2.180s] make: *** [Makefile:141: all] Error 2
+[2.181s] Invoked command in '/home/theo/dev_ws/build/wa_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/wa_helper/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1

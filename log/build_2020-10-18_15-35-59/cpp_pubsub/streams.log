@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/theo/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_pubsub -- -j1 -l1
+[0.048s] CMake Error at CMakeLists.txt:22:
+[0.048s]   Parse error.  Expected "(", got identifier with text "executable".
+[0.048s] 
+[0.048s] 
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.049s] See also "/home/theo/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.051s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.056s] Invoked command in '/home/theo/dev_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_pubsub -- -j1 -l1

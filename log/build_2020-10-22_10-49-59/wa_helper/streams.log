@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.074s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.102s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.399s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.085s] -- Configuring done
+[1.086s] CMake Error at CMakeLists.txt:17 (add_library):
+[1.086s]   Cannot find source file:
+[1.086s] 
+[1.086s]     SHARED
+[1.087s] 
+[1.087s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.087s]   .hpp .hxx .in .txx
+[1.087s] 
+[1.087s] 
+[1.088s] CMake Error at CMakeLists.txt:17 (add_library):
+[1.089s]   No SOURCES given to target: wa_helper
+[1.089s] 
+[1.089s] 
+[1.089s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.094s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.098s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1

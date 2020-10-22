@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwa_publisher.a  CMakeFiles/wa_publisher.dir/src/wa_publisher.cpp.o
+/usr/bin/ranlib libwa_publisher.a

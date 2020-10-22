@@ -1,0 +1,36 @@
+[0.045s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.193s] [35m[1mScanning dependencies of target wa_helper[0m
+[0.268s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o[0m
+[4.210s] [100%] [32m[1mLinking CXX static library libwa_helper.a[0m
+[4.258s] [100%] Built target wa_helper
+[4.283s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[4.364s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/wa_helper
+[4.407s] -- Install configuration: ""
+[4.408s] -- Installing: /home/theo/dev_ws/install/wa_helper/lib/libwa_helper.a
+[4.409s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.sh
+[4.410s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.dsv
+[4.411s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/package_run_dependencies/wa_helper
+[4.412s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/parent_prefix_path/wa_helper
+[4.413s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.sh
+[4.413s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.dsv
+[4.414s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.sh
+[4.415s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.dsv
+[4.416s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.bash
+[4.416s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.sh
+[4.417s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.zsh
+[4.418s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.dsv
+[4.419s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.dsv
+[4.420s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/packages/wa_helper
+[4.421s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport.cmake
+[4.422s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport-noconfig.cmake
+[4.423s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.424s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_libraries-extras.cmake
+[4.425s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_targets-extras.cmake
+[4.425s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.426s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig.cmake
+[4.428s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig-version.cmake
+[4.428s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.xml
+[4.429s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/include
+[4.429s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/include/wa_helper
+[4.432s] -- Installing: /home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp
+[4.438s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/wa_helper

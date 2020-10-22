@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target wa_helper[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o[0m
+In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:24:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+   24 |   WAPublisher(([01;31m[Kvoid[m[K (*fn)()), int delay_ms, int topic_name, int queue_size);
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:24:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kvoid[m[K’
+   24 |   WAPublisher([34m[K([m[K[01;31m[Kv[m[K[32m[Koid[m[K (*fn)()), int delay_ms, int topic_name, int queue_size);
+      |               [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~[m[K
+      |                [32m[K)[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:24:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kvoid[m[K’
+   24 |   WAPublisher[34m[K([m[K([01;31m[Kv[m[K[32m[Koid[m[K (*fn)()), int delay_ms, int topic_name, int queue_size);
+      |              [34m[K~[m[K [01;31m[K^[m[K[32m[K~~~[m[K
+      |                [32m[K)[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:8:28:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+    8 | WAPublisher<T>::WAPublisher[01;31m[K([m[K(void (*fn)()), int delay_ms, int topic_name, int queue_size) : Node("minimal_publisher")
+      |                            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

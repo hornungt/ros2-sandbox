@@ -1,0 +1,45 @@
+[0.017s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.071s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.110s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.420s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] -- Configuring done
+[1.136s] -- Generating done
+[1.139s] -- Build files have been written to: /home/theo/dev_ws/build/wa_helper
+[1.178s] [100%] Built target wa_helper
+[1.190s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[1.235s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/wa_helper
+[1.246s] -- Install configuration: ""
+[1.246s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/lib/libwa_helper.a
+[1.246s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.sh
+[1.247s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.dsv
+[1.247s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/package_run_dependencies/wa_helper
+[1.247s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/parent_prefix_path/wa_helper
+[1.247s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.sh
+[1.248s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.dsv
+[1.248s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.sh
+[1.248s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.dsv
+[1.248s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.bash
+[1.249s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.sh
+[1.249s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.zsh
+[1.249s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.dsv
+[1.249s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.dsv
+[1.250s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/packages/wa_helper
+[1.250s] -- Old export file "/home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport.cmake" will be replaced.  Removing files [/home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport-noconfig.cmake].
+[1.250s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport.cmake
+[1.251s] -- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport-noconfig.cmake
+[1.251s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.251s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_libraries-extras.cmake
+[1.252s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_targets-extras.cmake
+[1.252s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.252s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig.cmake
+[1.252s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig-version.cmake
+[1.252s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.xml
+[1.253s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/include
+[1.253s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/include/wa_helper
+[1.253s] -- Up-to-date: /home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp
+[1.256s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/wa_helper

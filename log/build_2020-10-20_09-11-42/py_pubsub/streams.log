@@ -1,0 +1,25 @@
+[0.391s] Invoking command in '/home/theo/dev_ws/src/py_pubsub': PYTHONPATH=/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/theo/dev_ws/build/py_pubsub/build install --prefix /home/theo/dev_ws/install/py_pubsub --record /home/theo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.701s] running egg_info
+[0.701s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.702s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.702s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.703s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.703s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.766s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.768s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.768s] running build
+[0.768s] running build_py
+[0.769s] copying py_pubsub/subscriber_member_function.py -> /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.770s] running install
+[0.771s] running install_lib
+[0.772s] copying /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.773s] byte-compiling /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[0.775s] running install_data
+[0.776s] running install_egg_info
+[0.779s] removing '/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.780s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[0.781s] running install_scripts
+[0.828s] Installing listener script to /home/theo/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.828s] Installing talker script to /home/theo/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.832s] writing list of installed files to '/home/theo/dev_ws/build/py_pubsub/install.log'
+[0.872s] Invoked command in '/home/theo/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/theo/dev_ws/build/py_pubsub/build install --prefix /home/theo/dev_ws/install/py_pubsub --record /home/theo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000204] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000232] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000258] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000284] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000311] (-) JobUnselected: {'identifier': 'wa_helper'}
+[0.000359] (wa_pubsub) JobQueued: {'identifier': 'wa_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/theo/dev_ws/install/tutorial_interfaces'), ('wa_helper', '/home/theo/dev_ws/install/wa_helper')])}
+[0.000397] (wa_pubsub) JobStarted: {'identifier': 'wa_pubsub'}
+[0.019580] (wa_pubsub) JobProgress: {'identifier': 'wa_pubsub', 'progress': 'cmake'}
+[0.020490] (wa_pubsub) JobProgress: {'identifier': 'wa_pubsub', 'progress': 'build'}
+[0.021424] (wa_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/wa_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/wa_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/py_pubsub:/home/theo/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/wa_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.086386] (wa_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wa_pub_test\x1b[0m\n'}
+[0.096028] (-) TimerEvent: {}
+[0.173091] (wa_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o\x1b[0m\n'}
+[0.196559] (-) TimerEvent: {}
+[0.297943] (-) TimerEvent: {}
+[0.398306] (-) TimerEvent: {}
+[0.498990] (-) TimerEvent: {}
+[0.599437] (-) TimerEvent: {}
+[0.700002] (-) TimerEvent: {}
+[0.800401] (-) TimerEvent: {}
+[0.900884] (-) TimerEvent: {}
+[1.001374] (-) TimerEvent: {}
+[1.101869] (-) TimerEvent: {}
+[1.202350] (-) TimerEvent: {}
+[1.302900] (-) TimerEvent: {}
+[1.403332] (-) TimerEvent: {}
+[1.503822] (-) TimerEvent: {}
+[1.604311] (-) TimerEvent: {}
+[1.704794] (-) TimerEvent: {}
+[1.769522] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.769761] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:20:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KWAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(void (*)(), int, const char [9], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.769908] (wa_pubsub) StderrLine: {'line': b'   20 | isher = WAPublisher<tutorial_interfaces::msg::Num>(&callback, 1000, "wa_topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.770042] (wa_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.770239] (wa_pubsub) StderrLine: {'line': b'\n'}
+[1.770421] (wa_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1\x1b[m\x1b[K:\n'}
+[1.770566] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KWAPublisher<T>::WAPublisher(std::function<T()>&, int, int, int) [with T = tutorial_interfaces::msg::Num_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.770703] (wa_pubsub) StderrLine: {'line': b'   24 |   \x1b[01;36m\x1b[KWAPublisher\x1b[m\x1b[K(std::function<T()> &fn, int delay_ms, int topic_name, int queue_size);\n'}
+[1.770830] (wa_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.770985] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)()\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<tutorial_interfaces::msg::Num_<std::allocator<void> >()>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.771181] (wa_pubsub) StderrLine: {'line': b'   24 |   WAPublisher(\x1b[01;36m\x1b[Kstd::function<T()> &fn\x1b[m\x1b[K, int delay_ms, int topic_name, int queue_size);\n'}
+[1.771314] (wa_pubsub) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.771485] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:22:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.771657] (wa_pubsub) StderrLine: {'line': b'   22 |   rclcpp::spin(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.771795] (wa_pubsub) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.771970] (wa_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.772123] (wa_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:4\x1b[m\x1b[K,\n'}
+[1.772254] (wa_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1\x1b[m\x1b[K:\n'}
+[1.772384] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.772512] (wa_pubsub) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[1.772638] (wa_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.772777] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[1.772925] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.773134] (wa_pubsub) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[1.773266] (wa_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.773405] (wa_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[1.804957] (-) TimerEvent: {}
+[1.905297] (-) TimerEvent: {}
+[2.005787] (-) TimerEvent: {}
+[2.106368] (-) TimerEvent: {}
+[2.207253] (-) TimerEvent: {}
+[2.210845] (wa_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:63: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o] Error 1\n'}
+[2.211340] (wa_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2\n'}
+[2.211452] (wa_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.211561] (wa_pubsub) CommandEnded: {'returncode': 2}
+[2.262925] (wa_pubsub) JobEnded: {'identifier': 'wa_pubsub', 'rc': 2}
+[2.270670] (-) EventReactorShutdown: {}

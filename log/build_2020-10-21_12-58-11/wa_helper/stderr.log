@@ -1,0 +1,22 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:66 (message):
+  ament_target_dependencies() the passed package name 'tutorial_interfaces'
+  was not found before
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (ament_target_dependencies)
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 109, in check_output
+    assert not rc, \
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/wa_helper', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

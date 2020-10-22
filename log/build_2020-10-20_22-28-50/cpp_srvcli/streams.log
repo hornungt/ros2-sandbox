@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/theo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_srvcli -- -j1 -l1
+[0.113s] [35m[1mScanning dependencies of target client[0m
+[0.190s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.499s] [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.499s] [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:20:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces[m[K’?
+[2.499s]    20 | ent<example_interfaces::srv::AddTwoInts>::SharedPtr client = node->create_client<[01;31m[Kexample_interface[m[K::src::AddTwoInts>("add_two_ints");
+[2.499s]       |                                                                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.500s]       |                                                                                  [32m[Kexample_interfaces[m[K
+[2.500s] [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:20:81:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.500s]    20 |   rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr client = node->[01;31m[Kcreate_client<example_interface::src::AddTwoInts>[m[K("add_two_ints");
+[2.500s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.501s] [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:20:145:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [13])[m[K’
+[2.501s]    20 | r client = node->create_client<example_interface::src::AddTwoInts>("add_two_ints"[01;31m[K)[m[K;
+[2.501s]       |                                                                                  [01;31m[K^[m[K
+[2.501s] 
+[2.501s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.502s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.502s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.502s]                  from [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[2.502s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.503s]   246 |   [01;36m[Kcreate_client[m[K(
+[2.503s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.503s] [01m[K/home/theo/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:20:145:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.505s]    20 | r client = node->create_client<example_interface::src::AddTwoInts>("add_two_ints"[01;31m[K)[m[K;
+[2.505s]       |                                                                                  [01;31m[K^[m[K
+[2.512s] 
+[3.445s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[3.453s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/client.dir/all] Error 2
+[3.453s] make: *** [Makefile:141: all] Error 2
+[3.454s] Invoked command in '/home/theo/dev_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_srvcli -- -j1 -l1

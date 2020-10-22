@@ -1,0 +1,4 @@
+Invoking command in '/home/theo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_srvcli -- -j1 -l1
+Invoked command in '/home/theo/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_srvcli -- -j1 -l1
+Invoking command in '/home/theo/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/cpp_srvcli
+Invoked command in '/home/theo/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/theo/dev_ws/build/cpp_srvcli

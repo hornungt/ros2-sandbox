@@ -1,0 +1,26 @@
+[0.059s] Invoking command in '/home/theo/dev_ws/build/wa_pubsub': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1
+[0.205s] [35m[1mScanning dependencies of target wa_pub_test[0m
+[0.297s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
+[6.711s] [100%] [32m[1mLinking CXX executable wa_pub_test[0m
+[7.015s] [100%] Built target wa_pub_test
+[7.032s] Invoked command in '/home/theo/dev_ws/build/wa_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1
+[7.083s] Invoking command in '/home/theo/dev_ws/build/wa_pubsub': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/theo/dev_ws/build/wa_pubsub
+[7.099s] -- Install configuration: ""
+[7.100s] -- Installing: /home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test
+[7.102s] -- Set runtime path of "/home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test" to ""
+[7.102s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/package_run_dependencies/wa_pubsub
+[7.103s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/parent_prefix_path/wa_pubsub
+[7.104s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.sh
+[7.104s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.dsv
+[7.105s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.sh
+[7.106s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.dsv
+[7.106s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.bash
+[7.107s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.sh
+[7.107s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.zsh
+[7.108s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.dsv
+[7.108s] -- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.dsv
+[7.109s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/packages/wa_pubsub
+[7.109s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig.cmake
+[7.110s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig-version.cmake
+[7.110s] -- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.xml
+[7.116s] Invoked command in '/home/theo/dev_ws/build/wa_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/theo/dev_ws/build/wa_pubsub

@@ -1,0 +1,15 @@
+[0.021s] Invoking command in '/home/theo/dev_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/theo/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_pubsub -- -j1 -l1
+[0.078s] [35m[1mScanning dependencies of target listener[0m
+[0.127s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.157s] [ 50%] [32m[1mLinking CXX executable listener[0m
+[6.453s] [ 50%] Built target listener
+[6.465s] [35m[1mScanning dependencies of target talker[0m
+[6.497s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[8.137s] [01m[K/home/theo/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[8.137s] [01m[K/home/theo/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[8.137s]    32 |     message.[01;31m[Kdata[m[K = this->count_++;
+[8.137s]       |             [01;31m[K^~~~[m[K
+[9.168s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[9.171s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[9.172s] make: *** [Makefile:141: all] Error 2
+[9.172s] Invoked command in '/home/theo/dev_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/theo/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/theo/dev_ws/build/cpp_pubsub -- -j1 -l1

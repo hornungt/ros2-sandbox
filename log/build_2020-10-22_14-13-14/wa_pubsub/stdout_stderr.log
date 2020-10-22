@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target wa_pub_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wa_pub_test[0m
+[100%] Built target wa_pub_test
+-- Install configuration: ""
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test
+-- Set runtime path of "/home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test" to ""
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/package_run_dependencies/wa_pubsub
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/parent_prefix_path/wa_pubsub
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.sh
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.dsv
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.bash
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.sh
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.zsh
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.dsv
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.dsv
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/packages/wa_pubsub
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig.cmake
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig-version.cmake
+-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.xml

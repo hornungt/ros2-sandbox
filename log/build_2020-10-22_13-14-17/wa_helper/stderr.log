@@ -1,0 +1,10 @@
+[01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:8:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kwa_helper::WAPublisher<T>::WAPublisher(T (*)(), int, std::string, int)[m[K’
+    8 | [01;31m[Kwa_helper[m[K::WAPublisher<T>::WAPublisher(T (*fn)(), int delay_ms, std::string topic_name, int queue_size) : Node("minimal_publisher")
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:25:3:[m[K [01;36m[Knote: [m[K‘[01m[Kwa_helper::WAPublisher<T>::WAPublisher(T (*)(), int, std::string, int)[m[K’ previously declared here
+   25 |   [01;36m[KWAPublisher[m[K(T (*fn)(), int delay_ms, std::string topic_name, int queue_size) : Node("minimal_publisher")
+      |   [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

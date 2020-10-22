@@ -1,0 +1,21 @@
+[0.018s] Invoking command in '/home/theo/dev_ws/build/wa_pubsub': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1
+[0.077s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.112s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.409s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.760s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.022s] -- Found tutorial_interfaces: 0.0.0 (/home/theo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.037s] -- Found wa_helper: 0.0.0 (/home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake)
+[1.044s] CMake Error at CMakeLists.txt:29 (target_link_libraries):
+[1.044s]   Cannot specify link libraries for target "wa_pub_test" which is not built
+[1.044s]   by this project.
+[1.045s] 
+[1.045s] 
+[1.046s] -- Configuring incomplete, errors occurred!
+[1.046s] See also "/home/theo/dev_ws/build/wa_pubsub/CMakeFiles/CMakeOutput.log".
+[1.047s] See also "/home/theo/dev_ws/build/wa_pubsub/CMakeFiles/CMakeError.log".
+[1.053s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.056s] Invoked command in '/home/theo/dev_ws/build/wa_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy LD_LIBRARY_PATH=/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/theo/dev_ws/build/wa_pubsub -- -j1 -l1

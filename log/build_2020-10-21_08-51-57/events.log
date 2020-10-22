@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000208] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000237] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000265] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000312] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000345] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/theo/dev_ws/install/tutorial_interfaces')])}
+[0.000379] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.013275] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.014203] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.015261] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.055185] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.085961] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.094537] (-) TimerEvent: {}
+[0.195241] (-) TimerEvent: {}
+[0.295758] (-) TimerEvent: {}
+[0.389607] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.396017] (-) TimerEvent: {}
+[0.430365] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.436272] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.496093] (-) TimerEvent: {}
+[0.596426] (-) TimerEvent: {}
+[0.611729] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.697011] (-) TimerEvent: {}
+[0.703221] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.705535] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.797125] (-) TimerEvent: {}
+[0.897537] (-) TimerEvent: {}
+[0.963751] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/theo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.998467] (-) TimerEvent: {}
+[1.061903] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.081824] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.084978] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/theo/dev_ws/build/cpp_pubsub\n'}
+[1.098947] (-) TimerEvent: {}
+[1.114570] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.148531] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.199391] (-) TimerEvent: {}
+[1.294485] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[1.294748] (cpp_pubsub) StderrLine: {'line': b'   30 | }\n'}
+[1.294888] (cpp_pubsub) StderrLine: {'line': b'      | \n'}
+[1.299932] (-) TimerEvent: {}
+[1.400600] (-) TimerEvent: {}
+[1.501523] (-) TimerEvent: {}
+[1.602048] (-) TimerEvent: {}
+[1.702578] (-) TimerEvent: {}
+[1.803110] (-) TimerEvent: {}
+[1.903635] (-) TimerEvent: {}
+[2.004168] (-) TimerEvent: {}
+[2.104497] (-) TimerEvent: {}
+[2.205241] (-) TimerEvent: {}
+[2.305754] (-) TimerEvent: {}
+[2.406281] (-) TimerEvent: {}
+[2.506820] (-) TimerEvent: {}
+[2.607338] (-) TimerEvent: {}
+[2.707885] (-) TimerEvent: {}
+[2.785839] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.786084] (cpp_pubsub) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Heard: \'%s\'", msg->num;\n'}
+[2.786226] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.786404] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:9:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.786552] (cpp_pubsub) StderrLine: {'line': b'    9 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.786686] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.789862] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.790040] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.790181] (cpp_pubsub) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<tutorial_interfaces::msg::Num>(\n'}
+[2.790315] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.790447] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.808398] (-) TimerEvent: {}
+[2.816965] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.817205] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.817350] (cpp_pubsub) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Heard: \'%s\'", msg->num;\n'}
+[2.817487] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.817646] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.817802] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:19:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.817937] (cpp_pubsub) StderrLine: {'line': b'   19 |   void topic_callback(const tutorial_interfaces::msg::Num::SharedPtr msg) const \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.818125] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.818303] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:19:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.818444] (cpp_pubsub) StderrLine: {'line': b'   19 |   void topic_callback(\x1b[01;35m\x1b[Kconst tutorial_interfaces::msg::Num::SharedPtr msg\x1b[m\x1b[K) const {\n'}
+[2.818575] (cpp_pubsub) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.818765] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.818900] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[2.819032] (cpp_pubsub) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Heard: \'%s\'", msg->num;\n'}
+[2.819652] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.908451] (-) TimerEvent: {}
+[3.010127] (-) TimerEvent: {}
+[3.110975] (-) TimerEvent: {}
+[3.211544] (-) TimerEvent: {}
+[3.311874] (-) TimerEvent: {}
+[3.412526] (-) TimerEvent: {}
+[3.513049] (-) TimerEvent: {}
+[3.613674] (-) TimerEvent: {}
+[3.714102] (-) TimerEvent: {}
+[3.814627] (-) TimerEvent: {}
+[3.915164] (-) TimerEvent: {}
+[4.015690] (-) TimerEvent: {}
+[4.116239] (-) TimerEvent: {}
+[4.216752] (-) TimerEvent: {}
+[4.317280] (-) TimerEvent: {}
+[4.417804] (-) TimerEvent: {}
+[4.498979] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[4.501026] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[4.501156] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.502512] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.518370] (-) TimerEvent: {}
+[4.544225] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.551307] (-) EventReactorShutdown: {}

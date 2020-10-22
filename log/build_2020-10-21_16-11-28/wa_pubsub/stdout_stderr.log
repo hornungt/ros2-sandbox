@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target wa_pub_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o[0m
+[01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:20:132:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KWAPublisher<tutorial_interfaces::msg::Num_<std::allocator<void> > >::WAPublisher(void (*)(), int, const char [9], int)[m[K’
+   20 | isher = WAPublisher<tutorial_interfaces::msg::Num>(&callback, 1000, "wa_topic", 10[01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+
+In file included from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KWAPublisher<T>::WAPublisher(std::function<T()>&, int, int, int) [with T = tutorial_interfaces::msg::Num_<std::allocator<void> >][m[K’
+   24 |   [01;36m[KWAPublisher[m[K(std::function<T()> &fn, int delay_ms, int topic_name, int queue_size);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:24:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid (*)()[m[K’ to ‘[01m[Kstd::function<tutorial_interfaces::msg::Num_<std::allocator<void> >()>&[m[K’
+   24 |   WAPublisher([01;36m[Kstd::function<T()> &fn[m[K, int delay_ms, int topic_name, int queue_size);
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:22:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+   22 |   rclcpp::spin([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp:4[m[K,
+                 from [01m[K/home/theo/dev_ws/src/wa_pubsub/src/wa_pub_test.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+   49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/wa_pub_test.dir/build.make:63: CMakeFiles/wa_pub_test.dir/src/wa_pub_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_pub_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+[0.010s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.077s] [35m[1mScanning dependencies of target wa_publisher[0m
+[0.081s] make[2]: *** No rule to make target '/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp', needed by 'CMakeFiles/wa_publisher.dir/src/wa_publisher.cpp.o'.  Stop.
+[0.083s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_publisher.dir/all] Error 2
+[0.083s] make: *** [Makefile:141: all] Error 2
+[0.085s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1

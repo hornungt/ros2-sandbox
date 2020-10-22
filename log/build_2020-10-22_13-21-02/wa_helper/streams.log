@@ -1,0 +1,23 @@
+[0.055s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.267s] [35m[1mScanning dependencies of target wa_helper[0m
+[0.357s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o[0m
+[3.590s] In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[3.591s] [01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[3.591s]    22 |   rclcpp::Publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr _publisher;
+[3.591s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.592s]       |                     [32m[Krcl_interfaces[m[K
+[3.592s] [01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.592s]    22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr _publisher;
+[3.592s]       |                                                  [01;31m[K^[m[K
+[3.593s] [01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.593s]    22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K _publisher;
+[3.593s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[3.594s]       |                                                              [32m[K;[m[K
+[3.599s] [01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:63:[m[K [01;31m[Kerror: [m[K‘[01m[K_publisher[m[K’ does not name a type; did you mean ‘[01m[KWAPublisher[m[K’?
+[3.600s]    22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[K_publisher[m[K;
+[3.600s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[3.600s]       |                                                               [32m[KWAPublisher[m[K
+[4.419s] make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
+[4.422s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
+[4.422s] make: *** [Makefile:141: all] Error 2
+[4.424s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1

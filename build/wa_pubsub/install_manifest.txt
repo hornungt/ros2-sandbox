@@ -1,0 +1,16 @@
+/home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test
+/home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/package_run_dependencies/wa_pubsub
+/home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/parent_prefix_path/wa_pubsub
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.sh
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.dsv
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.sh
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.dsv
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.bash
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.sh
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.zsh
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.dsv
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.dsv
+/home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/packages/wa_pubsub
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig.cmake
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig-version.cmake
+/home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.xml

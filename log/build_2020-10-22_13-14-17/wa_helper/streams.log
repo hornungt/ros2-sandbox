@@ -1,0 +1,14 @@
+[0.042s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+[0.196s] [35m[1mScanning dependencies of target wa_helper[0m
+[0.284s] [ 50%] [32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o[0m
+[2.982s] [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:8:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kwa_helper::WAPublisher<T>::WAPublisher(T (*)(), int, std::string, int)[m[K’
+[2.983s]     8 | [01;31m[Kwa_helper[m[K::WAPublisher<T>::WAPublisher(T (*fn)(), int delay_ms, std::string topic_name, int queue_size) : Node("minimal_publisher")
+[2.983s]       | [01;31m[K^~~~~~~~~[m[K
+[2.983s] In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[2.983s] [01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:25:3:[m[K [01;36m[Knote: [m[K‘[01m[Kwa_helper::WAPublisher<T>::WAPublisher(T (*)(), int, std::string, int)[m[K’ previously declared here
+[2.984s]    25 |   [01;36m[KWAPublisher[m[K(T (*fn)(), int delay_ms, std::string topic_name, int queue_size) : Node("minimal_publisher")
+[2.984s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[3.658s] make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
+[3.662s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
+[3.663s] make: *** [Makefile:141: all] Error 2
+[3.668s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1

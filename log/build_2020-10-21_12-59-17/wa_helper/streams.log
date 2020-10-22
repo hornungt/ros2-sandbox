@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theo/dev_ws/src/wa_helper -DCMAKE_INSTALL_PREFIX=/home/theo/dev_ws/install/wa_helper
+[0.046s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.378s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.086s] -- Configuring done
+[1.090s] CMake Error: Cannot determine link language for target "wa_publisher".
+[1.090s] CMake Error: CMake can not determine linker language for target: wa_publisher
+[1.091s] -- Generating done
+[1.093s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.100s] Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/theo/dev_ws/src/wa_helper -DCMAKE_INSTALL_PREFIX=/home/theo/dev_ws/install/wa_helper
+[1.115s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 109, in check_output
+    assert not rc, \
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/wa_helper', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

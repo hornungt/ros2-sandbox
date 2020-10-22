@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000212] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000242] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000271] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000299] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000330] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/theo/dev_ws/install/tutorial_interfaces')])}
+[0.000363] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.008891] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.009706] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.015028] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/cpp_srvcli', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.066747] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.093531] (-) TimerEvent: {}
+[0.093833] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.194020] (-) TimerEvent: {}
+[0.295002] (-) TimerEvent: {}
+[0.388286] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.395073] (-) TimerEvent: {}
+[0.426042] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435358] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.495179] (-) TimerEvent: {}
+[0.595556] (-) TimerEvent: {}
+[0.617005] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.695896] (-) TimerEvent: {}
+[0.709851] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.712228] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.796282] (-) TimerEvent: {}
+[0.896713] (-) TimerEvent: {}
+[0.979381] (cpp_srvcli) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/theo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.996924] (-) TimerEvent: {}
+[1.076684] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.094048] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[1.097169] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/theo/dev_ws/build/cpp_srvcli\n'}
+[1.097302] (-) TimerEvent: {}
+[1.122612] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[1.154535] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.197480] (-) TimerEvent: {}
+[1.298045] (-) TimerEvent: {}
+[1.398408] (-) TimerEvent: {}
+[1.498859] (-) TimerEvent: {}
+[1.599633] (-) TimerEvent: {}
+[1.700779] (-) TimerEvent: {}
+[1.801225] (-) TimerEvent: {}
+[1.901979] (-) TimerEvent: {}
+[2.002485] (-) TimerEvent: {}
+[2.103013] (-) TimerEvent: {}
+[2.204564] (-) TimerEvent: {}
+[2.304998] (-) TimerEvent: {}
+[2.405790] (-) TimerEvent: {}
+[2.506184] (-) TimerEvent: {}
+[2.606790] (-) TimerEvent: {}
+[2.707168] (-) TimerEvent: {}
+[2.807740] (-) TimerEvent: {}
+[2.909036] (-) TimerEvent: {}
+[3.009491] (-) TimerEvent: {}
+[3.110058] (-) TimerEvent: {}
+[3.210818] (-) TimerEvent: {}
+[3.311767] (-) TimerEvent: {}
+[3.412211] (-) TimerEvent: {}
+[3.512710] (-) TimerEvent: {}
+[3.613208] (-) TimerEvent: {}
+[3.713889] (-) TimerEvent: {}
+[3.814427] (-) TimerEvent: {}
+[3.915223] (-) TimerEvent: {}
+[4.015851] (-) TimerEvent: {}
+[4.021782] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[4.116155] (-) TimerEvent: {}
+[4.191399] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[4.202877] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[4.216307] (-) TimerEvent: {}
+[4.231465] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[4.317051] (-) TimerEvent: {}
+[4.418182] (-) TimerEvent: {}
+[4.518507] (-) TimerEvent: {}
+[4.619047] (-) TimerEvent: {}
+[4.719403] (-) TimerEvent: {}
+[4.820036] (-) TimerEvent: {}
+[4.920668] (-) TimerEvent: {}
+[5.021540] (-) TimerEvent: {}
+[5.122209] (-) TimerEvent: {}
+[5.222758] (-) TimerEvent: {}
+[5.323587] (-) TimerEvent: {}
+[5.424564] (-) TimerEvent: {}
+[5.525033] (-) TimerEvent: {}
+[5.625821] (-) TimerEvent: {}
+[5.726240] (-) TimerEvent: {}
+[5.827327] (-) TimerEvent: {}
+[5.927820] (-) TimerEvent: {}
+[6.028767] (-) TimerEvent: {}
+[6.129373] (-) TimerEvent: {}
+[6.229936] (-) TimerEvent: {}
+[6.330543] (-) TimerEvent: {}
+[6.431743] (-) TimerEvent: {}
+[6.532240] (-) TimerEvent: {}
+[6.633011] (-) TimerEvent: {}
+[6.733407] (-) TimerEvent: {}
+[6.773860] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[6.833771] (-) TimerEvent: {}
+[6.929838] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[6.934178] (-) TimerEvent: {}
+[6.942086] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.972878] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[6.983875] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/cpp_srvcli'], 'cwd': '/home/theo/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[6.995463] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.996104] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[6.997120] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/theo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[6.997543] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[6.998911] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/theo/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[6.999611] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[6.999992] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[7.000325] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[7.000556] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[7.000875] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[7.001127] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[7.001437] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[7.001666] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[7.001908] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[7.002140] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[7.002450] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[7.002767] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[7.003020] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[7.003194] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[7.003439] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[7.008190] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[7.034336] (-) TimerEvent: {}
+[7.057887] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[7.059004] (-) EventReactorShutdown: {}

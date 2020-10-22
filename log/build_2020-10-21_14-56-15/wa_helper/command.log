@@ -1,0 +1,2 @@
+Invoking command in '/home/theo/dev_ws/build/wa_helper': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1
+Invoked command in '/home/theo/dev_ws/build/wa_helper' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/theo/dev_ws/build/wa_helper -- -j1 -l1

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000256] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000294] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000330] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000366] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000410] (wa_helper) JobQueued: {'identifier': 'wa_helper', 'dependencies': OrderedDict()}
+[0.000449] (wa_pubsub) JobQueued: {'identifier': 'wa_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/theo/dev_ws/install/tutorial_interfaces'), ('wa_helper', '/home/theo/dev_ws/install/wa_helper')])}
+[0.000491] (wa_helper) JobStarted: {'identifier': 'wa_helper'}
+[0.020354] (wa_helper) JobProgress: {'identifier': 'wa_helper', 'progress': 'cmake'}
+[0.021949] (wa_helper) JobProgress: {'identifier': 'wa_helper', 'progress': 'build'}
+[0.023417] (wa_helper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/wa_helper', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/wa_helper', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/py_pubsub:/home/theo/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/wa_helper'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.091716] (-) TimerEvent: {}
+[0.110393] (wa_helper) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.192229] (-) TimerEvent: {}
+[0.202501] (wa_helper) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.292282] (-) TimerEvent: {}
+[0.392796] (-) TimerEvent: {}
+[0.493780] (-) TimerEvent: {}
+[0.594354] (-) TimerEvent: {}
+[0.645776] (wa_helper) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.694850] (-) TimerEvent: {}
+[0.704872] (wa_helper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.714179] (wa_helper) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.795417] (-) TimerEvent: {}
+[0.895904] (-) TimerEvent: {}
+[0.996468] (-) TimerEvent: {}
+[1.016282] (wa_helper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.096604] (-) TimerEvent: {}
+[1.171170] (wa_helper) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.175038] (wa_helper) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.197059] (-) TimerEvent: {}
+[1.297591] (-) TimerEvent: {}
+[1.398101] (-) TimerEvent: {}
+[1.498597] (-) TimerEvent: {}
+[1.599136] (-) TimerEvent: {}
+[1.699796] (-) TimerEvent: {}
+[1.800709] (-) TimerEvent: {}
+[1.812731] (wa_helper) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.829261] (wa_helper) StdoutLine: {'line': b'-- Generating done\n'}
+[1.838909] (wa_helper) StdoutLine: {'line': b'-- Build files have been written to: /home/theo/dev_ws/build/wa_helper\n'}
+[1.880720] (wa_helper) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wa_helper\x1b[0m\n'}
+[1.900822] (-) TimerEvent: {}
+[1.928635] (wa_helper) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o\x1b[0m\n'}
+[2.001243] (-) TimerEvent: {}
+[2.101777] (-) TimerEvent: {}
+[2.202348] (-) TimerEvent: {}
+[2.303644] (-) TimerEvent: {}
+[2.404436] (-) TimerEvent: {}
+[2.504921] (-) TimerEvent: {}
+[2.605406] (-) TimerEvent: {}
+[2.705956] (-) TimerEvent: {}
+[2.807021] (-) TimerEvent: {}
+[2.907504] (-) TimerEvent: {}
+[3.008044] (-) TimerEvent: {}
+[3.108583] (-) TimerEvent: {}
+[3.209084] (-) TimerEvent: {}
+[3.309627] (-) TimerEvent: {}
+[3.410159] (-) TimerEvent: {}
+[3.510658] (-) TimerEvent: {}
+[3.611220] (-) TimerEvent: {}
+[3.711576] (-) TimerEvent: {}
+[3.812233] (-) TimerEvent: {}
+[3.912779] (-) TimerEvent: {}
+[4.013288] (-) TimerEvent: {}
+[4.113787] (-) TimerEvent: {}
+[4.214353] (-) TimerEvent: {}
+[4.314919] (-) TimerEvent: {}
+[4.415447] (-) TimerEvent: {}
+[4.516041] (-) TimerEvent: {}
+[4.617613] (-) TimerEvent: {}
+[4.718473] (-) TimerEvent: {}
+[4.819128] (-) TimerEvent: {}
+[4.935059] (-) TimerEvent: {}
+[5.057181] (-) TimerEvent: {}
+[5.157777] (-) TimerEvent: {}
+[5.267284] (-) TimerEvent: {}
+[5.367999] (-) TimerEvent: {}
+[5.472253] (-) TimerEvent: {}
+[5.572955] (-) TimerEvent: {}
+[5.673511] (-) TimerEvent: {}
+[5.717505] (wa_helper) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libwa_helper.a\x1b[0m\n'}
+[5.772875] (wa_helper) StdoutLine: {'line': b'[100%] Built target wa_helper\n'}
+[5.773804] (-) TimerEvent: {}
+[5.792662] (wa_helper) CommandEnded: {'returncode': 0}
+[5.841379] (wa_helper) JobProgress: {'identifier': 'wa_helper', 'progress': 'install'}
+[5.856999] (wa_helper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/wa_helper'], 'cwd': '/home/theo/dev_ws/build/wa_helper', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/py_pubsub:/home/theo/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/wa_helper'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[5.873645] (wa_helper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.874262] (-) TimerEvent: {}
+[5.874988] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/lib/libwa_helper.a\n'}
+[5.875610] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.sh\n'}
+[5.875939] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/library_path.dsv\n'}
+[5.876515] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/package_run_dependencies/wa_helper\n'}
+[5.876905] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/parent_prefix_path/wa_helper\n'}
+[5.877212] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.sh\n'}
+[5.877617] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/ament_prefix_path.dsv\n'}
+[5.878093] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.sh\n'}
+[5.878618] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/environment/path.dsv\n'}
+[5.879048] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.bash\n'}
+[5.879815] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.sh\n'}
+[5.880127] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.zsh\n'}
+[5.880550] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/local_setup.dsv\n'}
+[5.880977] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.dsv\n'}
+[5.881478] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/ament_index/resource_index/packages/wa_helper\n'}
+[5.881921] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport.cmake\n'}
+[5.882400] (wa_helper) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperExport-noconfig.cmake\n'}
+[5.882849] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.883158] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.883576] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.883876] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.884178] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig.cmake\n'}
+[5.884617] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake/wa_helperConfig-version.cmake\n'}
+[5.885460] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/share/wa_helper/package.xml\n'}
+[5.885768] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/include\n'}
+[5.886037] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/include/wa_helper\n'}
+[5.886577] (wa_helper) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_helper/include/wa_helper/wa_publisher.hpp\n'}
+[5.890644] (wa_helper) CommandEnded: {'returncode': 0}
+[5.975174] (-) TimerEvent: {}
+[5.976503] (wa_helper) JobEnded: {'identifier': 'wa_helper', 'rc': 0}
+[5.977565] (wa_pubsub) JobStarted: {'identifier': 'wa_pubsub'}
+[6.015423] (wa_pubsub) JobProgress: {'identifier': 'wa_pubsub', 'progress': 'cmake'}
+[6.016656] (wa_pubsub) JobProgress: {'identifier': 'wa_pubsub', 'progress': 'build'}
+[6.017220] (wa_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/dev_ws/build/wa_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/theo/dev_ws/build/wa_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/py_pubsub:/home/theo/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/wa_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[6.106015] (-) TimerEvent: {}
+[6.156323] (wa_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.206378] (-) TimerEvent: {}
+[6.252291] (wa_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.306996] (-) TimerEvent: {}
+[6.407429] (-) TimerEvent: {}
+[6.507958] (-) TimerEvent: {}
+[6.608486] (-) TimerEvent: {}
+[6.707427] (wa_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.708642] (-) TimerEvent: {}
+[6.778786] (wa_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.790479] (wa_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.809623] (-) TimerEvent: {}
+[6.910625] (-) TimerEvent: {}
+[7.011650] (-) TimerEvent: {}
+[7.095138] (wa_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.112100] (-) TimerEvent: {}
+[7.212652] (-) TimerEvent: {}
+[7.228505] (wa_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.232753] (wa_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.313221] (-) TimerEvent: {}
+[7.414246] (-) TimerEvent: {}
+[7.515239] (-) TimerEvent: {}
+[7.615768] (-) TimerEvent: {}
+[7.659359] (wa_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/theo/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[7.683544] (wa_pubsub) StdoutLine: {'line': b'-- Found wa_helper: 0.0.0 (/home/theo/dev_ws/install/wa_helper/share/wa_helper/cmake)\n'}
+[7.716263] (-) TimerEvent: {}
+[7.816817] (-) TimerEvent: {}
+[7.830161] (wa_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.853438] (wa_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[7.858462] (wa_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/theo/dev_ws/build/wa_pubsub\n'}
+[7.917332] (-) TimerEvent: {}
+[7.927614] (wa_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable wa_pub_test\x1b[0m\n'}
+[8.019851] (-) TimerEvent: {}
+[8.120180] (-) TimerEvent: {}
+[8.220719] (-) TimerEvent: {}
+[8.283973] (wa_pubsub) StdoutLine: {'line': b'[100%] Built target wa_pub_test\n'}
+[8.304299] (wa_pubsub) CommandEnded: {'returncode': 0}
+[8.320942] (-) TimerEvent: {}
+[8.345825] (wa_pubsub) JobProgress: {'identifier': 'wa_pubsub', 'progress': 'install'}
+[8.346069] (wa_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/dev_ws/build/wa_pubsub'], 'cwd': '/home/theo/dev_ws/build/wa_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theo'), ('SSH_AGENT_PID', '2044'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib:/home/theo/dev_ws/install/wa_helper/lib:/home/theo/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/theo'), ('OLDPWD', '/home/theo/dev_ws/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1451'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8577'), ('_colcon_cd_root', '/home/theo/dev_ws'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/theo/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theo'), ('JOURNAL_STREAM', '9:34444'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'theo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theo-VirtualBox:@/tmp/.ICE-unix/2145,unix/theo-VirtualBox:/tmp/.ICE-unix/2145'), ('INVOCATION_ID', 'e276326f470d477a813cadfe594c26f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en.US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/py_pubsub:/home/theo/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:84cbd7c1-0501-4095-aa8a-30e7def0563b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theo/dev_ws/build/wa_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theo/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/theo/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/theo/dev_ws/install/wa_helper:/home/theo/dev_ws/install/tutorial_interfaces:/home/theo/dev_ws/install/cpp_srvcli:/home/theo/dev_ws/install/cpp_pubsub:/home/theo/dev_ws/install/turtlesim:/home/theo/dev_ws/install/my_package:/home/theo/dev_ws/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[8.367993] (wa_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.368838] (wa_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test\n'}
+[8.371769] (wa_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/theo/dev_ws/install/wa_pubsub/lib/wa_pubsub/wa_pub_test" to ""\n'}
+[8.372359] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/package_run_dependencies/wa_pubsub\n'}
+[8.372746] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/parent_prefix_path/wa_pubsub\n'}
+[8.373222] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.sh\n'}
+[8.373571] (wa_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/ament_prefix_path.dsv\n'}
+[8.374400] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.sh\n'}
+[8.374857] (wa_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/environment/path.dsv\n'}
+[8.376073] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.bash\n'}
+[8.376986] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.sh\n'}
+[8.378079] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.zsh\n'}
+[8.379320] (wa_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/local_setup.dsv\n'}
+[8.381730] (wa_pubsub) StdoutLine: {'line': b'-- Installing: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.dsv\n'}
+[8.383395] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/ament_index/resource_index/packages/wa_pubsub\n'}
+[8.383904] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig.cmake\n'}
+[8.384187] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/cmake/wa_pubsubConfig-version.cmake\n'}
+[8.384583] (wa_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/theo/dev_ws/install/wa_pubsub/share/wa_pubsub/package.xml\n'}
+[8.390470] (wa_pubsub) CommandEnded: {'returncode': 0}
+[8.421981] (-) TimerEvent: {}
+[8.465176] (wa_pubsub) JobEnded: {'identifier': 'wa_pubsub', 'rc': 0}
+[8.466833] (-) EventReactorShutdown: {}

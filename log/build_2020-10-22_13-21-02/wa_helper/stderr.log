@@ -1,0 +1,19 @@
+In file included from [01m[K/home/theo/dev_ws/src/wa_helper/src/wa_publisher.cpp:1[m[K:
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   22 |   rclcpp::Publisher<[01;31m[Ktutorial_interfaces[m[K::msg::Num>::SharedPtr _publisher;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Krcl_interfaces[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num[01;31m[K>[m[K::SharedPtr _publisher;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::[01;31m[KSharedPtr[m[K _publisher;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/theo/dev_ws/src/wa_helper/src/../include/wa_helper/wa_publisher.hpp:22:63:[m[K [01;31m[Kerror: [m[K‘[01m[K_publisher[m[K’ does not name a type; did you mean ‘[01m[KWAPublisher[m[K’?
+   22 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr [01;31m[K_publisher[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                                               [32m[KWAPublisher[m[K
+make[2]: *** [CMakeFiles/wa_helper.dir/build.make:63: CMakeFiles/wa_helper.dir/src/wa_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wa_helper.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

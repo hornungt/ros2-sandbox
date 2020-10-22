@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:22:
+  Parse error.  Expected "(", got identifier with text "executable".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/theo/dev_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

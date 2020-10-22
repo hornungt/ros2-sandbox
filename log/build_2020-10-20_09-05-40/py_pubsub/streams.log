@@ -1,0 +1,41 @@
+[0.389s] Invoking command in '/home/theo/dev_ws/src/py_pubsub': PYTHONPATH=/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/theo/dev_ws/build/py_pubsub/build install --prefix /home/theo/dev_ws/install/py_pubsub --record /home/theo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.680s] running egg_info
+[0.681s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.681s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.681s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.682s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.682s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.682s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.686s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.748s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.749s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.750s] creating /home/theo/dev_ws/build/py_pubsub/build
+[0.751s] creating /home/theo/dev_ws/build/py_pubsub/build/lib
+[0.751s] creating /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.751s] copying py_pubsub/publisher_member_function.py -> /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.751s] copying py_pubsub/__init__.py -> /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.751s] copying py_pubsub/subscriber_member_function.py -> /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub
+[0.752s] running install
+[0.753s] running install_lib
+[0.755s] creating /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.755s] copying /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.756s] copying /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.756s] copying /home/theo/dev_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[0.757s] byte-compiling /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.759s] byte-compiling /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[0.759s] byte-compiling /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[0.760s] running install_data
+[0.761s] creating /home/theo/dev_ws/install/py_pubsub/share/ament_index
+[0.761s] creating /home/theo/dev_ws/install/py_pubsub/share/ament_index/resource_index
+[0.761s] creating /home/theo/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.761s] copying resource/py_pubsub -> /home/theo/dev_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.762s] copying package.xml -> /home/theo/dev_ws/install/py_pubsub/share/py_pubsub
+[0.762s] running install_egg_info
+[0.765s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[0.766s] running install_scripts
+[0.791s] Installing listener script to /home/theo/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.791s] Installing talker script to /home/theo/dev_ws/install/py_pubsub/lib/py_pubsub
+[0.792s] writing list of installed files to '/home/theo/dev_ws/build/py_pubsub/install.log'
+[0.815s] Invoked command in '/home/theo/dev_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/theo/dev_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/theo/dev_ws/build/py_pubsub/build install --prefix /home/theo/dev_ws/install/py_pubsub --record /home/theo/dev_ws/build/py_pubsub/install.log --single-version-externally-managed
