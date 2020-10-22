@@ -1,4 +1,4 @@
-**Linux/VM Setup:
+## Linux/VM Setup:
 
 Download Ubuntu 20.04 Focal Fossa desktop image from https://releases.ubuntu.com/20.04/
 
@@ -7,7 +7,7 @@ Download and install the most recent version of VirtualBox at https://www.virtua
 Run VirtualBox, click the New button at the top of the window, and follow steps to create a vm using the ubuntu20.04 iso file you just downloaded
 --Note: I would recommend allocating at least 4 GB of RAM and 20 GB on your hard drive for the VM. Minimal installation in the next step requires roughly 10 GB, and the RAM is only used when the VM needs it/is running.
 
-**Build Instructions:
+## Build Instructions:
 
 in dev_ws run:
 `colcon build`
@@ -25,7 +25,7 @@ run ros nodes with
 listen to ros topics and their data with
 `ros2 topic echo <topic_name>`
 
-**Todos:
+## Todos:
 - add more ros2 cli instructions (create package, listen to topic, etc)
 - explain cpp_pubsub, wa_pubsub, and wa_helper packages
 - finish wa_helper package by adding a wa_subscriber
